@@ -29,6 +29,5 @@ class Solution(object):
             else:
                 temp = str(nums[curr_a])+"->"+str(nums[curr_b])
                 out.append(temp)          
-
         return out                
         
