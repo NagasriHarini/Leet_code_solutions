@@ -18,7 +18,9 @@ class Solution(object):
 
         for i in range(2,n):
             table[i] = max(table[i-1], table[i-2]+nums[i])
-
+        
+        
+        
         return table[-1]
 
         
